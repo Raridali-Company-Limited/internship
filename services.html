@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      body{
+            background-color: lightblue;
+            background-image: url(IMAGES/img/bg1.jpg);
+        }
+
+        header {
+            position: fixed;
+            background-color: black;
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            position: relative;
+            font-size: 1.5em;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            color: blue;
+            background-color: greenyellow;
+            height: 50px;
+            padding-top: 20px;
+            margin-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .links {
+            gap: 50px;
+            display: flex;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            align-items: center;
+        }
+
+        .links a:hover {
+            color: black;
+            border-bottom: 3px solid red;
+            transition: 0.1s;
+            cursor: pointer;
+            
+
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid red;
+            background-color: blue;
+        }
+
+        footer {
+            display: flex;
+            color: white;
+            background-color: black;
+            justify-content: space-between;
+       
+            padding: 20px;
+        }
+        .carousel{
+            width: 80%;
+            margin:20px auto;
+        }
+        .iservices{
+          text-align: center;
+          font-weight: bold;
+          font-size: 1.5em;
+        }
+        .message{
+          margin-left: 100px;
+          font-weight: bold;
+        }
+       input{
+        width: 300px;
+       }
+       button{
+        color: white;
+        font-weight: bold;
+        background-color: greenyellow;
+        border: 2PX solid black;
+        border-radius: 3px;
+        margin-bottom: 50px;
+       }
+       form{
+        width: 100%;
+        background-color: lavenderblush;
+       }
+         
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            
+        </div>
+            <h1>KINGDOM TECH solutions</h1>
+        </header>
+        
+        <nav>
+            <div class="links">
+            <div class="home"><a href="home.html">HOME</a></div>
+            <div class="aboutus"><a href="aboutus.html">ABOUT-US</a></div>
+            <div class="services"><a href="services.html">SERVICES</a></div>
+            <div class="contactus"><a href="contactus.html">CONTACT-US</a></div>
+            </div>
+        </nav>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../intern/IMAGES/img/t5.avif" class="d-block w-100" alt="software1">
+              </div>
+              <div class="carousel-item">
+                <img src="../intern/IMAGES/img/t3.avif" class="d-block w-100" alt="fibre1">
+              </div>
+              <div class="carousel-item">
+                <img src="../intern/IMAGES/img/t1.jpg" class="d-block w-100" alt="TECH">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="iservices">
+            <p>Software Development</p>
+            <p>network maintenance</p>
+            <p>Fibre optics and installation</p>
+            <p>Microwave</p>
+            <p>Graphics</p>
+            <p>Hardware maintenaince and repair</p>
+            <p>Supply of compters and its accessories</p>
+            <p>Career opportunities</p>
+          </div>
+          <form>
+             <div class="message">
+              <h3>leave a message</h3>
+              <p><label>name</label></p>
+              <p><input type="text"></p>
+              <p><label>Email</label></p>
+              <p><input type="email"></p>
+              <p><label>Message</label></p>
+              <p><input type="text-area"></p>
+              <button>SUBMIT</button>
+
+             </div>
+            </form>
+          
+    
+          <footer>
+      
+            <div>
+                <p>Housing finace bank buildind, Plot 150 Acholi Road </p>
+                <p>P.O BOX 140, Gulu City, UGANDA</p>
+            <p>Time: Monday-saturday : 8:00am to 5:00p</p>
+    
+            </div>
+            <div>
+                <p>Phone: +256 775549990</p>
+                <p> +256 742641919</p>
+                <p> +256 394788141</p>
+            </div>
+            <div>
+                <p>Email: kingdomtech@gmail.com</p>
+            <p>copyright&copy;2024</p>
+            </div>
+    
+    
+        </footer>
+</body>
+</html>
