@@ -1,0 +1,13 @@
+h2 { color: blue; }
+p{color: blueviolet;}
+.first{
+    color: brown;
+}
+#mine{
+    color:white
+}
+input[type="text"]{color:blue;}
+@media (max-width: 600px) {
+    body { background-color: rgb(5, 16, 134); }
+  }
+  
